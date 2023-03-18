@@ -1,0 +1,118 @@
+/*
+* { 
+	border:1px solid red;
+}
+*/
+
+.abaque {
+	display: flex;
+	flex-direction:row;
+}
+
+#unite {
+	background-color:SlateBlue;
+	width:100px;
+	display: flex;
+	align-items: center;
+	flex-direction:column;
+	justify-content: end;
+}
+
+#potjetons {
+	width:100px;
+	height:100px;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+  	background-image: url('bourse-100.png');
+}
+
+#calcul {
+	background-color:IndianRed;
+	width:1100px;
+	display: flex;
+	flex-direction:column;
+	justify-content: end;
+}
+
+#calcul div {
+	height:50px;
+}
+#nombre {
+	width:50px;
+	background-color:grey;
+	display: flex;
+	flex-direction:column;
+	justify-content: end;
+}
+#nombre div {
+	height:50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+
+.jetonorig {
+	display: inline-block;
+	height:50px;
+	width:50px;
+	background-image: url('jeton2.png');
+}
+
+
+.jeton {
+	display: inline-block;
+	height:50px;
+	width:50px;
+	background-image: url('jeton.png');
+}
+
+
+.jeton3 {
+	display: inline-block;
+	height:50px;
+	width:50px;
+	background-image: url('jeton3.png');
+}
+
+
+.jeton2 {
+	display: inline-block;
+	height:50px;
+	width:50px;
+	background-image: url('jeton2.png');
+}
+
+
+.demi {
+	display: inline-block;
+	height:50px;
+	width:50px;
+}
+
+#bouton1 {
+	visibility:hidden;
+}
+
+#bouton2 {
+	visibility:hidden;
+}
+
+#message {
+	overflow:auto; 
+	border:#000000 1px solid; 
+	width: 1250px; 
+	height: 100px;
+}
+
+#baspage {
+	position:absolute;
+	bottom:0;
+}
+
+
+#nombre div[id^='nd'] {
+	color:red;
+}

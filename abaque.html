@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Abaque</title>
+		<meta charset="UTF-8"/>
+		<script type="text/javascript" src="abaque.js"></script>
+		<link  rel="stylesheet" href="abaque.css"/>
+	</head>
+	<body>
+		<h1>Abaque pour l'addition</h1>
+		<p>
+		Cette page permet de simuler les différentes manipulations pour faire un calcul à partir d'une abaque.
+		</p>
+		<p>
+		<button onclick="window.location.reload()">RAZ</button>
+		</p>
+		<div class="abaque">
+			<div id="potjetons">
+				<div class="jeton" draggable="true" ondragstart="debutdrag(event)" ondragover="allowDrop(event)"></div>
+			</div>
+			<div id="unite" ondrop="dropUnite(event)" ondragover="allowDrop(event)">
+			</div>
+			<div id="calcul">
+			</div>
+			<div id="nombre">
+			</div>
+		</div>
+		<button onclick="deuxieme()" id="bouton1">Additionner à</button>
+		<button onclick="addition2(1)" id="bouton2">calculer</button>
+
+		<!--
+		Base:
+		<select name="base" id="base" onchange="changeBase(event)">
+			<option value="10">10</option>
+			<option value="7">7</option>
+			<option value="5">5</option>
+			<option value="3">3</option>
+			<option value="2">2</option>
+		</select>
+		<p id="message"></p>
+		-->
+		<div id="message">
+		</div>
+		<p id="baspage">2023, Fabrice Issac, Stéphane Lamassé</p>
+    </body>
+</html>
