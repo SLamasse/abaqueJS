@@ -5,5 +5,5 @@ L'idée de ce programme est de faire une démonstration jouable d'une table d'ab
 
 
 Sur ce projet nous sommes deux : 
-Stéphane Lamassé (Pireh - Paris 1 Panthéon-Sorbonne - Lamop) 
-Fabrice Issac (Paris XIII) 
+* Stéphane Lamassé (Pireh - Paris 1 Panthéon-Sorbonne - Lamop) 
+* Fabrice Issac (Paris XIII) 
